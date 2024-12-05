@@ -1,0 +1,58 @@
+/* General Header Styling */
+.header {
+    background-color: #f0f4f8;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .header-title {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Menu Button Styling */
+  .menu-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Mobile Navigation */
+  .mobile-nav {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    margin: 10px 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #5e5e5e;
+  }
+  
+  .nav-link:hover {
+    color: #f3c614;
+  }
+  

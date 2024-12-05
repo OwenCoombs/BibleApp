@@ -1,0 +1,72 @@
+/* General Settings Page Styling */
+.settings {
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Dark Mode Styling */
+  .settings.dark-mode {
+    background-color: #333;
+    color: #fefefe;
+  }
+  
+  /* Title */
+  .settings-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Individual Setting Item */
+  .setting-item {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Label Styling */
+  .setting-label {
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  /* Toggle Button Styling */
+  .toggle-button {
+    padding: 8px 12px;
+    background-color: #f3c614;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #e0ac0a;
+  }
+  
+  /* Font Size Buttons */
+  .font-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .font-button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f4f8;
+    transition: background-color 0.3s;
+  }
+  
+  .font-button.active,
+  .font-button:hover {
+    background-color: #f3c614;
+    color: white;
+  }
+  

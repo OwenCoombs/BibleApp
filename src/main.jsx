@@ -15,17 +15,18 @@ import App from './App'
 import ErrorPage from './ErrorPage'
 import Header from './Header'
 import Footer from './Footer'
-
+import Settings from './Settings'
+import DarkModeProvider from './DarkModeContext'  // Import DarkModeProvider
 
 function Layout() {
   return (
-      <>
-        <Header />
-        <div id='page-content'>
-          <Outlet />
-        </div>
-        <Footer />
-      </>
+    <>
+      <Header />
+      <div id="page-content">
+        <Outlet />
+      </div>
+      <Footer />
+    </>
   )
 }
 
@@ -43,10 +44,16 @@ const router = createBrowserRouter([
         path: '/about',
         element: <About />
       },
+      {
+        path: '/settings',
+        element: <Settings />
+      },
     ]
   }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <DarkModeProvider> {/* Wrap the RouterProvider with DarkModeProvider */}
+    <RouterProvider router={router} />
+  </DarkModeProvider>
 )

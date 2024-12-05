@@ -1,0 +1,26 @@
+/* General Footer Styling */
+.footer {
+    background-color: #f0f4f8; /* Light blue background */
+    text-align: center;
+    padding: 15px 10px;
+    font-family: "Roboto", sans-serif;
+    color: #5e5e5e;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Quote Styling */
+  .footer-quote {
+    font-family: "Playfair Display", serif; /* Elegant font for quotes */
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+    padding-bottom: 8px;
+  }
+  
+  /* Credits Styling */
+  .footer-credits {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #777;
+  }
+  

@@ -1,15 +1,68 @@
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-}
-#root {
+/* General App Styling */
+.app {
   display: flex;
-  height: 100%;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Main Content Styling */
+.main-content {
+  flex: 1;
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  background-color: #fefefe; /* White background */
+  padding: 20px;
 }
-#page-content {
-  flex-grow: 2;
+
+/* Verse Card Styling */
+.verse-section {
+  margin-bottom: 20px;
+}
+
+.verse-card {
+  background-color: #f0f4f8; /* Light blue */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.verse-text {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.verse-reference {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #777;
+}
+
+/* QR Button Styling */
+.qr-button {
+  background-color: #f3c614; /* Gold */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color 0.3s;
+}
+
+.qr-button:hover {
+  background-color: #e0ac0a; /* Darker gold */
 }

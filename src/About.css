@@ -1,0 +1,55 @@
+/* General Page Styling */
+.about {
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    background-color: #fefefe;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .about-title {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    color: #5e5e5e;
+    margin-bottom: 15px;
+  }
+  
+  /* Description Styling */
+  .about-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Features Section */
+  .features-title {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    color: #5e5e5e;
+    margin-bottom: 10px;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .features-list li {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  /* Quote Styling */
+  .about-quote {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #895737;
+    margin-top: 20px;
+    border-left: 4px solid #f3c614;
+    padding-left: 10px;
+  }
+  
